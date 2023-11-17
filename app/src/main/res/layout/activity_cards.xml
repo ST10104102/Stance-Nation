@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Cards">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="18dp"
+        android:layout_margin="10dp"
+        android:padding="36dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_a_card"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/CardHolder"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/textViewTitle"
+                android:layout_marginTop="16dp"
+                android:autofillHints=""
+                android:background="@drawable/custome_textview"
+                android:hint="@string/card_holder"
+                android:inputType="textPersonName"
+                android:maxLength="12"
+                android:minEms="2"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/CardNumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/CardHolder"
+                android:layout_marginTop="16dp"
+                android:autofillHints=""
+                android:background="@drawable/custome_textview"
+                android:hint="@string/card_number"
+                android:inputType="number"
+                android:maxLength="16"
+                android:minEms="13"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/CardExpiry"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/CardNumber"
+                android:layout_marginTop="16dp"
+                android:autofillHints=""
+                android:background="@drawable/custome_textview"
+                android:hint="@string/expiration_date_mm_yy"
+                android:inputType="number"
+                android:maxLength="4"
+                android:minEms="4"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/CardCVV"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/CardExpiry"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:background="@drawable/custome_textview"
+                android:hint="@string/cvv"
+                android:maxLength="3"
+                android:minEms="3"
+                android:padding="12dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        android:layout_width="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/black" />
+
+    <Button
+        android:id="@+id/buttonCardAdd"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/custome_textview"
+        android:text="@string/add_card" />
+</LinearLayout>

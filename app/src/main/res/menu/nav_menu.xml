@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:background="@drawable/custome_textview"
+            android:title="@string/home">
+        </item>
+
+        <item
+            android:id="@+id/nav_tickets"
+            android:icon="@drawable/tickets"
+            android:background="@drawable/custome_textview"
+            android:title="@string/tickets">
+        </item>
+
+    </group>
+
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:background="@drawable/custome_textview"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="@string/logout"/>
+        </menu>
+
+    </item>
+
+
+</menu>

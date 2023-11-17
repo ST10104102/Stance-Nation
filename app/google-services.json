@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "961922775819",
+    "project_id": "stancenation-21ae5",
+    "storage_bucket": "stancenation-21ae5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961922775819:android:f6c4c665c1b0db295f400e",
+        "android_client_info": {
+          "package_name": "com.example.stancenation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961922775819-jsc998s8p32u8e91ai7nmejv807nh89b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoztyHkm1fv14esbpvmlwp24d_DXDDS3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961922775819-jsc998s8p32u8e91ai7nmejv807nh89b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961922775819:android:c26b7290ca6355d75f400e",
+        "android_client_info": {
+          "package_name": "org.meicode.navigationmenu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961922775819-chcq6a281qnuj8u0ge5cgqok7g0gfc18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.meicode.navigationmenu",
+            "certificate_hash": "34d46efc32be5dca622b8d55a9a1f5fc3bf6f410"
+          }
+        },
+        {
+          "client_id": "961922775819-jsc998s8p32u8e91ai7nmejv807nh89b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoztyHkm1fv14esbpvmlwp24d_DXDDS3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961922775819-jsc998s8p32u8e91ai7nmejv807nh89b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
